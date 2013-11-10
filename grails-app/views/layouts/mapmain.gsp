@@ -9,9 +9,21 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-  <title></title>
+  <title>Test 1</title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <g:layoutHead/>
+    <r:layoutResources />
 </head>
 <body>
+    <div class="header" style='height:50px;'>
+
+        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
+            <a class="pure-menu-heading" href="">Another Link</a>
+            <ul>Link</ul>
+        </div>
+    </div>
+    <g:layoutBody/>
 
 </body>
 </html>
