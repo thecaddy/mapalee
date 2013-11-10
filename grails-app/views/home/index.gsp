@@ -9,16 +9,20 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    %{--<meta name="layout" content="main">--}%
-    <script src='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
+    <meta name="layout" content="mapmain">
     <link href='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
-  <title></title>
+    <title>Test2</title>
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:50px; bottom:0px; width:100%; }
+    </style>
 </head>
 <body>
-    <div id='map' style='height:100%;'></div>
+    <div id='map'></div>
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.js'></script>
     <script type='text/javascript'>
         var map = L.mapbox.map('map', 'thecaddy.g7a7lk12')
                 .setView([40, -74.50], 9);
-    </script>                          1
+    </script>
 </body>
 </html>
