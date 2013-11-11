@@ -11,6 +11,7 @@
 <head>
   <title>Test 1</title>
 
+    <link rel="shortcut icon" href="${resource(dir: 'images', file: 'm.ico')}" type='image/x-icon'/>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
     <g:layoutHead/>
     <r:layoutResources />
