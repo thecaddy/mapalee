@@ -13,15 +13,22 @@
 
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'm.ico')}" type='image/x-icon'/>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <g:layoutHead/>
     <r:layoutResources />
 </head>
 <body>
-    <div class="header" style='height:50px;'>
+    <div class="header" style='height:36px;'>
 
-        <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-            <a class="pure-menu-heading" href="">Another Link</a>
-            <ul>Link</ul>
+        <div id='mapmenu' class="pure-menu pure-menu-open pure-menu-horizontal">
+            <h3>Mapalee</h3>
+            <ul>
+                <li class='pure-menu-selected'><a href="#">Home</a></li>
+                <li class="#"><a href="#">Flickr</a></li>
+                <li><a href="#">Messenger</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Finance</a></li>
+            </ul>
         </div>
     </div>
     <g:layoutBody/>
